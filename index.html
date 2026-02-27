@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Henri Arvela | Ammattilainen Turku</title>
+  <meta name="description" content="Henri Arvela – ota yhteyttä ja kerro tarpeesi. Yhteydenotto onnistuu lomakkeella, puhelimitse tai sähköpostilla." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Henri Arvela" />
+  <meta property="og:description" content="Ota yhteyttä Henri Arvelaan. Nopea vastaus ja selkeä hinnoittelu." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="fi_FI" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Henri Arvela",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Turhalankatu 6",
+      "addressCountry": "FI"
+    },
+    "telephone": "+358451954056",
+    "email": "henriarvela@icloud.com"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- NAVIGAATIO -->
+  <header class="site-header" role="banner">
+    <nav class="nav-container" aria-label="Päänavigaatio">
+      <a href="index.html" class="nav-logo" aria-label="Henri Arvela – etusivu">
+        <span class="logo-text">Henri Arvela</span>
+      </a>
+
+      <button class="hamburger" aria-label="Avaa valikko" aria-expanded="false" aria-controls="nav-menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#tietoja">Tietoja</a></li>
+        <li><a href="#palvelut">Palvelut</a></li>
+        <li><a href="#hinnasto">Hinnasto</a></li>
+        <li><a href="#yhteystiedot" class="nav-cta">Ota yhteyttä</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Esittely">
+      <div class="hero-bg">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" aria-hidden="true">
+          <span></span><span></span><span></span>
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-eyebrow">Turhalankatu 6</p>
+        <h1 class="hero-title">Henri Arvela</h1>
+        <p class="hero-sub">Kerro tarpeesi. Saat vastauksen saman päivän aikana.</p>
+        <div class="hero-actions">
+          <a href="#yhteystiedot" class="btn btn-primary">Ota yhteyttä</a>
+          <a href="#palvelut" class="btn btn-ghost">Katso palvelut</a>
+        </div>
+        <div class="hero-meta" aria-label="Yhteystiedot pikaisesti">
+          <a href="tel:+358451954056" class="hero-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.54a16 16 0 0 0 6.55 6.55l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            0451 954 056
+          </a>
+          <a href="mailto:henriarvela@icloud.com" class="hero-contact-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+            henriarvela@icloud.com
+          </a>
+        </div>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- LUOTTAMUSELEMENTIT -->
+    <section class="trust-bar" aria-label="Avainluvut">
+      <div class="container">
+        <div class="trust-grid">
+          <div class="trust-item" data-animate="fade-up">
+            <span class="trust-number">100%</span>
+            <span class="trust-label">Suomalainen toimija</span>
+          </div>
+          <div class="trust-item" data-animate="fade-up" style="--delay: 0.1s">
+            <span class="trust-number">24 h</span>
+            <span class="trust-label">Vastausaika yhteydenottoihin</span>
+          </div>
+          <div class="trust-item" data-animate="fade-up" style="--delay: 0.2s">
+            <span class="trust-number">Turku</span>
+            <span class="trust-label">Turhalankatu 6</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIETOJA -->
+    <section class="about" id="tietoja" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="about-layout">
+          <div class="about-image-wrap" data-animate="fade-right">
+            <div class="about-image-placeholder" aria-hidden="true">
+              <svg class="about-monogram" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <circle cx="60" cy="60" r="58" stroke="currentColor" stroke-width="1.5" opacity="0.3"/>
+                <circle cx="60" cy="60" r="46" stroke="currentColor" stroke-width="0.8" opacity="0.15"/>
+                <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" font-family="Cinzel, serif" font-size="36" font-weight="600" fill="currentColor" opacity="0.9">HA</text>
+                <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" font-family="Inter, sans-serif" font-size="8" letter-spacing="4" fill="currentColor" opacity="0.5">ARVELA</text>
+              </svg>
+            </div>
+            <div class="about-image-accent" aria-hidden="true"></div>
+          </div>
+          <div class="about-text" data-animate="fade-left">
+            <span class="section-eyebrow">Tietoja</span>
+            <h2 id="about-heading">Henri Arvela</h2>
+            <p class="about-lead">Turhalankatu 6:ssa toimiva ammattilainen, joka hoitaa asiansa suoraan.</p>
+            <p>Paras tapa selvittää, sopiiko palvelu sinulle, on ottaa suoraan yhteyttä. Jätä viesti lomakkeella tai soita numeroon <a href="tel:+358451954056" class="text-link">0451 954 056</a>.</p>
+            <p>Sähköpostiin vastaan saman päivän aikana arkisin.</p>
+            <div class="about-divider" aria-hidden="true"></div>
+            <address class="about-address">
+              <p><strong>Osoite:</strong> Turhalankatu 6</p>
+              <p><strong>Puh:</strong> <a href="tel:+358451954056" class="text-link">0451 954 056</a></p>
+              <p><strong>Sähköposti:</strong> <a href="mailto:henriarvela@icloud.com" class="text-link">henriarvela@icloud.com</a></p>
+            </address>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PALVELUT -->
+    <section class="services" id="palvelut" aria-labelledby="services-heading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-eyebrow">Palvelut</span>
+          <h2 id="services-heading">Mitä teen</h2>
+          <p class="section-desc">Tarkemmat tiedot palveluista ja hinnoista saat ottamalla yhteyttä.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card" data-animate="fade-up">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+            </div>
+            <h3>Konsultointi</h3>
+            <p>Kartoitan tilanteen ja annan selkeän suunnitelman. Ensimmäinen tapaaminen sovitaan puhelimitse tai sähköpostilla.</p>
+          </article>
+          <article class="service-card" data-animate="fade-up" style="--delay: 0.1s">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <h3>Toteutus</h3>
+            <p>Sovittu työ tehdään aikataulussa. Edistymisestä tiedotetaan ilman erillistä kyselyä.</p>
+          </article>
+          <article class="service-card" data-animate="fade-up" style="--delay: 0.2s">
+            <div class="service-icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Jälkihoito</h3>
+            <p>Valmistumisen jälkeen saat tarvittaessa lisätukea. Yhteystiedot pysyvät samoina.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HINNASTO -->
+    <section class="pricing" id="hinnasto" aria-labelledby="pricing-heading">
+      <div class="container">
+        <div class="section-header" data-animate="fade-up">
+          <span class="section-eyebrow">Hinnasto</span>
+          <h2 id="pricing-heading">Hinnoittelu</h2>
+          <p class="section-desc">Kysy tarkempi tarjous omaan tarpeeseesi.</p>
+        </div>
+        <div class="pricing-grid" data-animate="fade-up">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Peruspaketti</h3>
+              <div class="pricing-price">
+                <span class="price-amount">Kysy hinta</span>
+              </div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li>Lähtötilanteen kartoitus</li>
+              <li>Selkeä aikataulu</li>
+              <li>Yhteydenotto puhelimitse tai sähköpostilla</li>
+            </ul>
+            <a href="#yhteystiedot" class="btn btn-primary btn-full">Kysy lisää</a>
+          </div>
+          <div class="pricing-card pricing-featured">
+            <div class="pricing-badge">Suosittu</div>
+            <div class="pricing-header">
+              <h3>Räätälöity paketti</h3>
+              <div class="pricing-price">
+                <span class="price-amount">Tarjouspohjainen</span>
+              </div>
+            </div>
+            <ul class="pricing-features" role="list">
+              <li>Kaikki peruspaketista</li>
+              <li>Tarkempi suunnitelma tarpeidesi mukaan</li>
+              <li>Jälkiseuranta sovitusti</li>
+            </ul>
+            <a href="#yhteystiedot" class="btn btn-primary btn-full">Pyydä tarjous</a>
+          </div>
+        </div>
+        <p class="pricing-note" data-animate="fade-up">Hinta sovitaan aina ennen työn aloittamista.</p>
+      </div>
+    </section>
+
+    <!-- CTA-PALKKI -->
+    <section class="cta-band" aria-label="Toimintakehote">
+      <div class="container">
+        <div class="cta-band-inner" data-animate="fade-up">
+          <h2>Valmis ottamaan seuraavan askeleen?</h2>
+          <p>Jätä yhteystietosi alla tai soita suoraan.</p>
+          <div class="cta-band-actions">
+            <a href="#yhteystiedot" class="btn btn-primary">Jätä viesti</a>
+            <a href="tel:+358451954056" class="btn btn-ghost-light">0451 954 056</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- YHTEYSTIEDOT & LOMAKE -->
+    <section class="contact" id="yhteystiedot" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="contact-layout">
+          <div class="contact-info" data-animate="fade-right">
+            <span class="section-eyebrow">Yhteystiedot</span>
+            <h2 id="contact-heading">Ota yhteyttä</h2>
+            <p>Täytä lomake tai ota suoraan yhteyttä alla olevilla tiedoilla. Vastaan arkipäivisin saman päivän aikana.</p>
+
+            <div class="contact-details">
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.4 2 2 0 0 1 3.58 1h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.54a16 16 0 0 0 6.55 6.55l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </div>
+                <div>
+                  <p class="contact-detail-label">Puhelin</p>
+                  <a href="tel:+358451954056" class="contact-detail-value">0451 954 056</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+                </div>
+                <div>
+                  <p class="contact-detail-label">Sähköposti</p>
+                  <a href="mailto:henriarvela@icloud.com" class="contact-detail-value">henriarvela@icloud.com</a>
+                </div>
+              </div>
+              <div class="contact-detail-item">
+                <div class="contact-detail-icon" aria-hidden="true">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                </div>
+                <div>
+                  <p class="contact-detail-label">Osoite</p>
+                  <span class="contact-detail-value">Turhalankatu 6</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-wrap" data-animate="fade-left">
+            <form
+              id="contact-form"
+              class="contact-form"
+              action="https://formspree.io/f/LOMAKE_ID"
+              method="POST"
+              novalidate
+              aria-label="Yhteydenottolomake"
+            >
+              <div class="form-group">
+                <label for="name" class="form-label">Nimi <span aria-hidden="true">*</span></label>
+                <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="form-input"
+                  placeholder="Etunimi Sukunimi"
+                  required
+                  autocomplete="name"
+                  aria-required="true"
+                />
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="phone" class="form-label">Puhelin</label>
+                  <input
+                    type="tel"
+                    id="phone"
+                    name="phone"
+                    class="form-input"
+                    placeholder="040 000 0000"
+                    autocomplete="tel"
+                  />
+                </div>
+                <div class="form-group">
+                  <label for="email" class="form-label">Sähköposti <span aria-hidden="true">*</span></label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    class="form-input"
+                    placeholder="sinä@esimerkki.fi"
+                    required
+                    autocomplete="email"
+                    aria-required="true"
+                  />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message" class="form-label">Viesti <span aria-hidden="true">*</span></label>
+                <textarea
+                  id="message"
+                  name="message"
+                  class="form-input form-textarea"
+                  placeholder="Kerro lyhyesti, mitä tarvitset..."
+                  rows="5"
+                  required
+                  aria-required="true"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full btn-submit" id="submit-btn">
+                <span class="btn-text">Lähetä viesti</span>
+                <span class="btn-loading" aria-hidden="true" hidden>Lähetetään...</span>
+              </button>
+              <div id="form-status" class="form-status" role="alert" aria-live="polite" hidden></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo">Henri Arvela</span>
+          <p class="footer-tagline">Turhalankatu 6</p>
+        </div>
+        <nav class="footer-nav" aria-label="Alatunnisteen navigaatio">
+          <a href="#tietoja">Tietoja</a>
+          <a href="#palvelut">Palvelut</a>
+          <a href="#hinnasto">Hinnasto</a>
+          <a href="#yhteystiedot">Yhteystiedot</a>
+        </nav>
+        <div class="footer-contact">
+          <a href="tel:+358451954056">0451 954 056</a>
+          <a href="mailto:henriarvela@icloud.com">henriarvela@icloud.com</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; <span id="footer-year"></span> Henri Arvela. Kaikki oikeudet pidätetään.</p>
+        <p class="footer-credit">Sivusto toteutettu <a href="https://nopeatsivut.fi" target="_blank" rel="noopener">Nopeatsivut.fi</a> toimesta</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
